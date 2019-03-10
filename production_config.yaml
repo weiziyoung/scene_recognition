@@ -1,0 +1,11 @@
+root_dir: "/root/cv3/project_data"
+data_root_dir: "data"
+
+raw_training_dir: "training"
+training_dir: "training_{pic_size}"
+test_dir: "testing_tagged"
+
+# logging setting
+logging_file: "production_log.txt"
+logging_format: "%(asctime)s - %(message)s"
+logging_print: false

@@ -1,0 +1,15 @@
+# Your project directory
+root_dir: "/Users/weiziyang/CV_DATA"
+
+# Your data directory that is used to save model file
+data_root_dir: "data"
+
+# The dir that contains the given training data
+raw_training_dir: "training"
+training_dir: "training_{pic_size}"
+test_dir: "testing_tagged"
+
+# logging setting
+logging_file: "log/log.txt"
+logging_format: "%(asctime)s - %(message)s"
+logging_print: true
